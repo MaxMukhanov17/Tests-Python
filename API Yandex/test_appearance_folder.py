@@ -10,7 +10,7 @@ class TestAPIYandex(unittest.TestCase):
 
     def test_appearance_folder(self):
         URL = 'https://cloud-api.yandex.net/v1/disk/resources'
-        TOKEN = 'AQAAAABb8nnZAADLW3ZCk3mPt0rxqBM39pD7aTs'
+        TOKEN = ''
         HEADERS = {
             'Content-Type': 'application/json',
             'Accept': 'application/json',
